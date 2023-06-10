@@ -115,3 +115,28 @@ transition: 0.2s ease-in-out;
 }
 
 `
+
+export const Footer = styled.div`
+width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  span{
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+  }
+
+  a{
+    color: #FFFFFF;
+    margin-left: 4px;
+
+    &:hover{
+      opacity: 0.8;
+    }
+  }
+`

@@ -17,13 +17,21 @@ function App() {
 					<span>Jéssica Sales</span>
 				</S.Profile>
 				<S.Links>
-					<S.Button href='https://wa.me/message/U23JFV4II6R7G1'>
+					<S.Button
+						href='https://wa.me/message/U23JFV4II6R7G1'
+						target='_BLANK'
+						rel='noreferrer'
+					>
 						<div className='content-box'>
 							<img src={whatssap} />
 							<span>Agende um horário</span>
 						</div>
 					</S.Button>
-					<S.Button href='https://instagram.com/jessicasalesbeauty/'>
+					<S.Button
+						href='https://instagram.com/jessicasalesbeauty/'
+						target='_BLANK'
+						rel='noreferrer'
+					>
 						<div className='content-box'>
 							<img src={instagram} />
 							<span>Instagram</span>
@@ -32,6 +40,7 @@ function App() {
 					<S.Button
 						href='https://www.youtube.com/@jessiicasales'
 						target='_BLANK'
+						rel='noreferrer'
 					>
 						<div className='content-box'>
 							<img src={youtube} />
@@ -39,15 +48,29 @@ function App() {
 						</div>
 					</S.Button>
 
-					<S.Button href='https://www.tiktok.com/@canaljessicasales/'>
+					<S.Button
+						href='https://www.tiktok.com/@canaljessicasales/'
+						target='_BLANK'
+						rel='noreferrer'
+					>
 						<div className='content-box'>
 							<img src={tiktok} />
 							<span>Tik Tok</span>
 						</div>
 					</S.Button>
 				</S.Links>
-				<div className='medias'></div>
-				<div className='footer'></div>
+
+				<S.Footer>
+					<span>Feito com ❤️ por </span>
+					<a
+						href='https://instagram.com/dyeegoalves/'
+						target='_BLANK'
+						rel='noreferrer'
+					>
+						{' '}
+						Diego Alves
+					</a>
+				</S.Footer>
 			</S.Content>
 		</S.Container>
 	);
