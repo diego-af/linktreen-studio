@@ -120,4 +120,8 @@ export const Footer = styled.div`
 			opacity: 0.8;
 		}
 	}
+
+	@media (max-width: 578px) {
+		margin-top: 15px;
+	}
 `;
