@@ -4,6 +4,7 @@ import youtube from './assets/youtube.png';
 import instagram from './assets/Instagram.svg';
 import tiktok from './assets/logo-tiktok-svgrepo-com.svg';
 import whatssap from './assets/icons8-whatsapp.svg';
+import shoppe from './assets/bag.svg';
 
 function App() {
 	return (
@@ -17,16 +18,6 @@ function App() {
 					<span>Jéssica Sales</span>
 				</S.Profile>
 				<S.Links>
-					<S.Button
-						href='https://wa.me/message/U23JFV4II6R7G1'
-						target='_BLANK'
-						rel='noreferrer'
-					>
-						<div className='content-box'>
-							<img src={whatssap} />
-							<span>Agende um horário</span>
-						</div>
-					</S.Button>
 					<S.Button
 						href='https://instagram.com/jessicasalesbeauty/'
 						target='_BLANK'
@@ -56,6 +47,16 @@ function App() {
 						<div className='content-box'>
 							<img src={tiktok} />
 							<span>Tik Tok</span>
+						</div>
+					</S.Button>
+					<S.Button
+						href='https://collshp.com/canaldajessiicq'
+						target='_BLANK'
+						rel='noreferrer'
+					>
+						<div className='content-box'>
+							<img src={shoppe} />
+							<span>Shoppe</span>
 						</div>
 					</S.Button>
 				</S.Links>
