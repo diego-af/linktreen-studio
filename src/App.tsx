@@ -3,7 +3,6 @@ import perfil from './assets/perfil.jpg';
 import youtube from './assets/youtube.png';
 import instagram from './assets/Instagram.svg';
 import tiktok from './assets/logo-tiktok-svgrepo-com.svg';
-
 import shoppe from './assets/bag.svg';
 
 function App() {
